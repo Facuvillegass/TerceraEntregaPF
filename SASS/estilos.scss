@@ -1,0 +1,95 @@
+@import "variables";
+@import "mediasq";
+@import "mixins";
+
+ 
+
+*{
+    font-family: poppins;
+}
+
+.autoMargenes
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+
+    nav{
+        img{
+            animation: 
+            {
+                name: LogoNavAnim;
+                iteration-count:infinite;
+            }
+        }
+
+        .navbar-brand
+        {
+            img { height: $alturaLogoNav; }
+        } 
+    }
+    
+}
+
+
+main{
+
+    
+    .skills__mkt
+    {
+        animation-name: girarEjeX;
+        animation-iteration-count:infinite;
+    }
+
+    @keyframes girarEjeX{
+        from  
+        {transform: rotateY(0deg); }
+        to 
+        {transform: rotateY(360deg); }
+    }
+
+    .container
+    {
+        .color-h4
+        {
+            h4 { color: rgb(83, 78, 78); }
+        }
+        
+        
+    }
+
+    
+
+    .contenedorCarousel
+    {
+        width: 50%;
+        @extend .autoMargenes;
+    }
+
+    .titulos_periodismo
+    {
+        h4 { background-color: lightcyan; }
+
+        h5 { background-color: lightgoldenrodyellow; }
+    }
+
+   
+   
+}
+
+footer{
+
+    background-color: $fondoBlanco;
+
+    a:hover 
+    { background-color: $fondoNegro; }
+
+    .bg-footer 
+    {
+        background-color: $fondoNegro;
+        font-size: small;
+    }
+}
+

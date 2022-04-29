@@ -1,0 +1,147 @@
+@media screen and (max-width: 600px) {
+  .autoMargenes, .contenedorMkt, .contenedorPeriodismo, footer, main .contenedorCarousel {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  main .btn, main h4 {
+    font-size: 0.9rem;
+  }
+  main h5 {
+    font-size: 0.8rem;
+  }
+  main .kzo, main .conductorNoticiero {
+    font-size: 0.7rem;
+  }
+  .contenedorMkt, .contenedorPeriodismo {
+    width: 90%;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  main .btn, main h4 {
+    font-size: 0.8rem;
+  }
+  main h5 {
+    font-size: 0.7rem;
+  }
+  main .kzo, main .conductorNoticiero {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .autoMargenes2, .videos, .logos__mkt, .contenedorMkt, .contenedorPeriodismo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .videos, .logos__mkt {
+    width: 50%;
+  }
+  .contenedorMkt, .contenedorPeriodismo {
+    width: 95%;
+  }
+  .logos__mkt a {
+    border-left: solid 50px lightgrey;
+  }
+  .logos__mkt .logosMkt1 a:hover {
+    border-left: solid 50px lightcoral;
+  }
+  .logos__mkt .logosMkt2 a:hover {
+    border-left: solid 50px lightseagreen;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logosMkt1 {
+    border: 3px;
+    border: solid lightcyan;
+    padding: 15px;
+  }
+  .logosMkt2 {
+    border: 1px;
+    border: dashed lightblue;
+    padding: 15px;
+  }
+}
+
+* {
+  font-family: poppins;
+}
+
+.autoMargenes, .contenedorMkt, .contenedorPeriodismo, footer, main .contenedorCarousel {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header nav img {
+  -webkit-animation-name: LogoNavAnim;
+          animation-name: LogoNavAnim;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+header nav .navbar-brand img {
+  height: 3.8rem;
+}
+
+main .skills__mkt {
+  -webkit-animation-name: girarEjeX;
+          animation-name: girarEjeX;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes girarEjeX {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes girarEjeX {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+main .container .color-h4 h4 {
+  color: #534e4e;
+}
+
+main .contenedorCarousel {
+  width: 50%;
+}
+
+main .titulos_periodismo h4 {
+  background-color: lightcyan;
+}
+
+main .titulos_periodismo h5 {
+  background-color: lightgoldenrodyellow;
+}
+
+footer {
+  background-color: white;
+}
+
+footer a:hover {
+  background-color: black;
+}
+
+footer .bg-footer {
+  background-color: black;
+  font-size: small;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+
+
+    @mixin bordeLogos ($colorBordes, $tamanioBorde, $tipoBorde)
+    {   
+        border: $colorBordes;
+        border: $tipoBorde $tamanioBorde;
+        padding: 15px;
+    }
+    
+   
+
+    .logosMkt1
+    {
+        @include bordeLogos (3px,lightcyan,solid)
+    }
+    .logosMkt2
+    {
+        @include bordeLogos (1px, lightblue,dashed)
+    }
+
+
+}
